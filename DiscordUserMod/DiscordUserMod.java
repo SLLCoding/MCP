@@ -12,7 +12,7 @@ public class DiscordUserMod extends ModDraggable {
 		return font.FONT_HEIGHT;
 	}
   
-  // IMPORTANT: Requires a variable with the username stored inside, this is set in the DiscordRP#init().
+  // IMPORTANT: Requires a variable with the username stored inside, this is set in the DiscordRP#start().
 	@Override
 	public void render(ScreenPosition pos) {
 		if ([Data Class].getDiscordUsername() != null) {
